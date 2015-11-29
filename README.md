@@ -1,5 +1,5 @@
 # AmazonS3RequestManager
-[![Version](https://img.shields.io/cocoapods/v/AmazonS3RequestManager.svg?style=flat)](http://cocoapods.org/pods/AmazonS3RequestManager)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/AmazonS3RequestManager.svg?style=flat)](http://cocoapods.org/pods/AmazonS3RequestManager)
 [![Platform](https://img.shields.io/cocoapods/p/AmazonS3RequestManager.svg?style=flat)](http://cocoapods.org/pods/AmazonS3RequestManager)
 
