@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AD101A815600EEB2E707FE6 /* Pods_AmazonS3RequestManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB1A488AB23F40B190021D4 /* Pods_AmazonS3RequestManagerTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0AD101A815600EEB2E707FE6 /* Pods_AmazonS3RequestManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB1A488AB23F40B190021D4 /* Pods_AmazonS3RequestManagerTests.framework */; };
 		0D80828C6F42FB5C5FF4C100 /* Pods_AmazonS3RequestManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71C24E6A28FD552DA5FC6AF /* Pods_AmazonS3RequestManager.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		21C2072C527B56F0B91B17DC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E3F9197DC24E8B008B2627 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		21C2072C527B56F0B91B17DC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E3F9197DC24E8B008B2627 /* Pods.framework */; };
 		922820BB1AA8FD9900C51349 /* AmazonS3SignatureHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 922820B91AA8FD9900C51349 /* AmazonS3SignatureHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		922820BC1AA8FD9900C51349 /* AmazonS3SignatureHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 922820BA1AA8FD9900C51349 /* AmazonS3SignatureHelpers.m */; };
 		922820C01AA909C800C51349 /* AmazonS3SignatureHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 922820BA1AA8FD9900C51349 /* AmazonS3SignatureHelpers.m */; };
 		922820C21AA90AEC00C51349 /* AmazonS3RequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EF4DB61AA64CC1002C68D2 /* AmazonS3RequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		922820C31AA90AF200C51349 /* AmazonS3SignatureHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 922820B91AA8FD9900C51349 /* AmazonS3SignatureHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92367F911BC361B8007F0A1E /* AmazonS3Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92367F901BC361B8007F0A1E /* AmazonS3Error.swift */; settings = {ASSET_TAGS = (); }; };
-		92367F931BC36642007F0A1E /* AmazonS3ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92367F921BC36642007F0A1E /* AmazonS3ResponseSerialization.swift */; settings = {ASSET_TAGS = (); }; };
+		92367F911BC361B8007F0A1E /* AmazonS3Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92367F901BC361B8007F0A1E /* AmazonS3Error.swift */; };
+		92367F931BC36642007F0A1E /* AmazonS3ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92367F921BC36642007F0A1E /* AmazonS3ResponseSerialization.swift */; };
 		925ABF3E1B276464003B9900 /* AmazonS3ACL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925ABF3D1B276464003B9900 /* AmazonS3ACL.swift */; };
 		925ABF401B2768DA003B9900 /* AmazonS3ACLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925ABF3F1B2768DA003B9900 /* AmazonS3ACLTests.swift */; };
-		92805B4B1BCEDB0800F3C4B8 /* AmazonS3RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92805B4A1BCEDB0800F3C4B8 /* AmazonS3RequestSerializer.swift */; settings = {ASSET_TAGS = (); }; };
-		92805B4D1BCEDF7400F3C4B8 /* AmazonS3RequestSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92805B4C1BCEDF7400F3C4B8 /* AmazonS3RequestSerializerTests.swift */; settings = {ASSET_TAGS = (); }; };
-		92A245351BC4516800802E48 /* AmazonS3ResponseSerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A245341BC4516800802E48 /* AmazonS3ResponseSerializationTests.swift */; settings = {ASSET_TAGS = (); }; };
+		92805B4B1BCEDB0800F3C4B8 /* AmazonS3RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92805B4A1BCEDB0800F3C4B8 /* AmazonS3RequestSerializer.swift */; };
+		92805B4D1BCEDF7400F3C4B8 /* AmazonS3RequestSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92805B4C1BCEDF7400F3C4B8 /* AmazonS3RequestSerializerTests.swift */; };
+		92A245351BC4516800802E48 /* AmazonS3ResponseSerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A245341BC4516800802E48 /* AmazonS3ResponseSerializationTests.swift */; };
 		92EF4DB71AA64CC1002C68D2 /* AmazonS3RequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EF4DB61AA64CC1002C68D2 /* AmazonS3RequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92EF4DBD1AA64CC1002C68D2 /* AmazonS3RequestManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EF4DB11AA64CC1002C68D2 /* AmazonS3RequestManager.framework */; };
 		92EF4DC41AA64CC1002C68D2 /* AmazonS3RequestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EF4DC31AA64CC1002C68D2 /* AmazonS3RequestManagerTests.swift */; };
@@ -214,7 +214,6 @@
 				92EF4DAD1AA64CC1002C68D2 /* Frameworks */,
 				92EF4DAE1AA64CC1002C68D2 /* Headers */,
 				92EF4DAF1AA64CC1002C68D2 /* Resources */,
-				D45996DCB4C888572937337A /* Embed Pods Frameworks */,
 				54749449A70282C508FC8D24 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -376,21 +375,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonS3RequestManagerTests/Pods-AmazonS3RequestManagerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D45996DCB4C888572937337A /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonS3RequestManager/Pods-AmazonS3RequestManager-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
