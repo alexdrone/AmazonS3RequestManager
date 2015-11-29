@@ -20,25 +20,21 @@ An Alamofire based request manager that serializes requests to the AWS S3 (Amazo
 
 ## Installation
 
-### CocoaPods
+### Carthage
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects.
-
-To integrate AmazonS3RequestManager into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
-use_frameworks!
-
-// For Swift 2.0
-pod 'AmazonS3RequestManager', '~> 0.8'
-
-Then, run the following command:
+To install Carthage, run (using Homebrew):
 
 ```bash
-$ pod install
+$ brew update
+$ brew install carthage
 ```
+
+Then add the following line to your `Cartfile`:
+
+```
+github "alexdrone/AmazonS3RequestManager" "master"    
+```
+
 
 ## Usage
 First create an instance of the manager.
