@@ -27,3 +27,4 @@ xcuserdata
 *.perspectivev3
 *.swp
 *.xccheckout
+Carthage/
